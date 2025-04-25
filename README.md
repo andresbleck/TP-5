@@ -13,4 +13,4 @@ Qué diferencias hay entre este diseño y el de la arquitectura de 3 capas anter
 - Cada request es independiente (sin estado).
 - Manejo de errores con try/catch y respuestas claras.
 - Ahora es mas facil de consumir para los diferejtes dispositivos, movil, web , etc.
-- 
+- Mas facil y ligera de escalar
