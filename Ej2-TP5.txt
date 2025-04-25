@@ -1,0 +1,11 @@
+¿Qué diferencias observan entre una arquitectura REST y una arquitectura de microservicios?
+REST es un estilo de comunicación entre sistemas que usa el protcolo HTTP y recursos bien definidos. Microservicios es una forma de estructurar una aplicación dividiéndola en servicios independientes. REST se enfoca en cómo se comunican, mientras que los microservicios en cómo se organiza y despliega la aplicación.
+
+
+
+¿Cuáles creen que serían los desafíos si quisieran dividir su aplicación REST actual en microservicios?
+Separar correctamente la lógica y los datos de cada módulo, definir límites claros entre servicios, y gestionar la nueva complejidad del sistema. También implica más esfuerzo en despliegue, monitoreo y comunicación entre servicios.
+
+
+¿Qué ventajas teóricas ven en los microservicios frente a una API REST monolítica?
+Escalabilidad independiente, facilidad para mantener o actualizar un solo servicio sin afectar el resto.También permiten que equipos distintos trabajen en paralelo sobre diferentes partes del sistema usando incluso lenguajes distintos. Al dividir la aplicación en componentes más pequeños y enfocados, el código tiende a ser más modular, mantenible y fácil de entender.
